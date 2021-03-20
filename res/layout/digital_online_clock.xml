@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/online_clock_bg">
+
+    <ImageView
+        android:id="@+id/h_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="52px" />
+
+    <ImageView
+        android:id="@+id/h_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"/>
+
+    <ImageView
+        android:id="@+id/m_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="52px"
+        android:layout_marginTop="73px" />
+
+    <ImageView
+        android:id="@+id/m_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="73px" />
+
+    <TextView
+        android:textSize="22px"
+        android:textColor="#99ffffff"
+        android:gravity="bottom|right"
+        android:layout_gravity="bottom|right"
+        android:id="@+id/txt_day"
+        android:layout_marginBottom="2px"
+	android:layout_marginRight="2px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="22px"
+        android:textColor="#99ffffff"
+        android:gravity="bottom|left"
+        android:layout_gravity="bottom|left"
+        android:id="@+id/week_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	android:layout_marginLeft="2px"
+        android:layout_marginBottom="2px" />
+    
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+      
+   <TextView
+      android:id="@+id/text_result"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="left"
+      android:paddingTop="85px"
+      android:paddingLeft="33px"
+      android:paddingRight="25px"
+      android:text="@string/low_mem"
+      android:background="@drawable/high_temper_warn_bg"
+      android:gravity="left"
+      android:textColor="@color/textGray"
+      android:textSize="28px" />
+
+</FrameLayout>

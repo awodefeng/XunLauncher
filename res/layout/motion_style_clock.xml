@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/motion_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_minute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/motion_minute_sword" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_hour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/motion_hour_sword" />
+
+    <TextView
+        android:textSize="18px"
+        android:textColor="#666666"
+        android:id="@+id/week_day"
+        android:layout_marginLeft="2px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215px"
+        />
+
+    <TextView
+        android:textSize="18px"
+        android:textColor="#666666"
+        android:id="@+id/txt_day"
+        android:layout_marginTop="215px"
+        android:layout_marginLeft="190px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

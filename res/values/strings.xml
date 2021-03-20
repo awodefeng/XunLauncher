@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_desc">Application icons</string>
+    <string name="app_name">WatchLauncher</string>
+    <string name="appicon_display_activity">WatchLauncher</string>
+    <string name="title_activity_insert_sim_card">InsertSimCardActivity</string>
+    <string name="morning">morning</string>
+    <string name="afternoon">afternoon</string>
+	<string name="evening">evening</string>
+	<string name="daybreak">daybreak</string>
+	
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="no_weather_info">暂无天气信息</string>
+    <string name="qr_tip">正在生成二维码，请稍等！</string>
+    
+    <string name="low_mem">current system available memory is too low</string>
+	<!--QQ releated-->
+    <string name="qq_usage_notice">电信卡及不支持收发短信的SIM卡将无法注册和使用QQ</string>
+    <string name="agree">agree</string>
+    <string name="word_refuse">refuse</string>
+    <string name="reply">reply</string>
+    <string name="default_nickname">Cute Baby</string>
+
+    <string name="hightemper_warning">当前手表温度过高\n10秒后手表返回首页</string>
+    <string name="stop_story_warning">\t当前手表温度较高，请等待手表降温后再使用讲故事。</string>
+    <string name="forbid_enter_warning">当前手表温度较高，请等待手表降温后再使用</string>   
+    
+    <string name="login_fail">网络不给力</string>
+    <string name="login_fail_help">手表网络不给力，建议可以在手表设置中重启手表或者换个环境再试。如果以上操作无法获取网络，请尝试更换SIM卡或者重新连接WIFI试试。</string>
+     <!--prevent addition -->
+    <string name="prevent_dialog_show_one">玩了这么久，让眼睛休息一下吧!</string>
+    <string name="prevent_dialog_show_two">还有 %1$s 分钟，才能用哦。</string>
+    <string name="prevent_dialog_show_three">还有 %1$s 秒，才能用哦。</string>
+
+    <string name="charging">使用前请移除充电器</string>
+    
+    <string name="new_qqmsg">有新的QQ消息,请拔出充电器后查看</string>
+	
+	<string name="input_pwd">请输入应用密码</string>
+    <string name="input_verifycode">请输入验证码</string>
+    <string name="plz_send_veriftcode">应用已锁定，请向管理员获取验证码后解锁</string>
+    <string name="plz_send_confirm">验证码正确，请重新输入应用密码</string>
+    <string name="no_pwd">请在APP-我的-支付宝-设置应用锁密码后使用</string>
+    <string name="insert_sim_help_tv">1. 请使用移动、联通\n nano-SIM卡,请勿使用剪卡。\n2. 手表支持移动4G、\n2G、联通2G。\n3. 用SIM卡工具打开\nSIM卡盖,将卡芯片朝外嵌入到SIM卡盖中。</string>
+    <string name="insert_sim_help_tv_760">1. 请使用移动4G、联通4G nano-SIM卡,请勿使用剪卡。\n2. 用插卡工具将卡托从表体中撬出,将nano-SIM卡的缺口对准卡托上的缺口,放到卡托里,再塞到表体中。</string>
+    <string name="insert_sim_help_tv_707">1. 请使用移动4G、联通4G、电信4G nano-SIM卡,请勿使用剪卡。\n2. 用插卡工具将卡托从表体中撬出,将nano-SIM卡的缺口对准卡托上的缺口,放到卡托里,再塞到表体中。</string>
+    <string name="appstore_app_show">应用 : %1$s</string>
+    <string name="appstore_app_settings">设置</string>
+    <string name="appstore_app_download">下载中 %1$s</string>
+    <string name="appstore_app_install">安装中</string>
+    <string name="appstore_app_install_complete">安装完成</string>
+    <string name="appstore_app_install_fail">安装失败</string>
+    <!-- add by jxring for appstore  -->
+    <string name="dialer">电话</string>
+    <string name="shownull">空</string>
+	<string name="mydialer">拨号盘</string>
+    <string name="xunchatroom">语音信息</string>
+    <string name="xunsettings">设置</string>
+    <string name="xunpet">宠物养成</string>
+    <string name="stepstart">运动计步</string>
+    <string name="storytall">讲故事</string>
+    <string name="xungallery">相册</string>
+    <string name="xuncamera">拍照</string>
+    <string name="AlipayGphone">支付宝</string>
+    <string name="xunbaidulbs">导航</string>
+    <string name="englishdailystudy">AI英语</string>
+    <string name="tencent_qq">QQ</string>
+    <string name="xunbrain">小爱同学</string>
+    <string name="xunimgrec">AI识别</string>
+    <string name="xunwordrec">拍照识字</string>
+    <string name="appstore">应用商店</string>
+    <string name="xunfriends">朋友圈</string>
+    <string name="pointsystem">积分</string>
+    <string name="stopwatch">秒表</string>
+    <string name="step">step</string>
+    <string name="card">card</string>
+    <string name="step_finsh">计步达标</string>
+    <string name="randowecp">+20金币</string>
+    <!-- xxun liuluyang start-->
+    <string name="unsupport_telecom_volte">Currently does not support China Telecom cards, please check the help on the App.</string>
+    <string name="china_telecom_volte_title">Current telecom cards do not support VoLTE</string>
+    <string name="china_telecom_volte_content">The current plug-in telecom card does not support VoLTE. If you continue to use it, you will not be able to make calls.</string>
+    <!-- xxun liuluyang end-->
+	<string name="bgcall_noti">The watch is busy now</string>
+    <string name="sim_absent_tv">请插入SIM卡</string>
+</resources>

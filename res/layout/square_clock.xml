@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/square_clock_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/week_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="162px"
+        android:layout_marginTop="111px"
+        android:src="@drawable/week_0" />
+
+    <ImageView
+        android:id="@+id/month_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="195px"
+        android:layout_marginTop="111px"
+        android:src="@drawable/day_1" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_minute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/simulation_02_minute_sword" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_hour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/simulation_02_hour_sword" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/simulation_02_second_sword" />
+
+    <ImageView
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/square_clock_point"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

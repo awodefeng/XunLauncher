@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!--   <ImageView
+           android:id="@+id/iv_exit"
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="10dp"
+           android:src="@drawable/ic_exit" />-->
+
+
+    <com.xxun.xunlauncher.utils.PwdEditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pwd_height"
+        android:layout_marginLeft="@dimen/pwd_marginLeft"
+        android:layout_marginTop="@dimen/pwd_margintop"
+        app:pwdCount="4"
+        app:mWidth="200"
+        app:mTextSize="35"
+        app:style="roundRectangle" />
+
+    <TextView
+        android:id="@+id/input_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pwd_guide_height"
+        android:layout_below="@+id/et_input"
+        android:gravity="center_horizontal"
+        android:text="@string/input_pwd"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/pwd_input_text" />
+
+
+    <com.xxun.xunlauncher.utils.PwdKeyboardView
+        android:id="@+id/key_board"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pwd_boardview_height"
+        android:layout_below="@id/input_pwd"
+        android:keepScreenOn="true"
+        android:keyBackground="@drawable/selector_key_board"
+        android:keyTextColor="@android:color/black"
+        android:shadowRadius="0" />
+
+    <TextView
+        android:id="@+id/lockview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_warning"
+        android:gravity="center"
+        android:text="@string/no_pwd"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/pwd_lock_text_size"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone" />
+
+        <TextView
+        android:id="@+id/send_verifycode_sucess"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_warning"
+        android:gravity="center"
+        android:text="@string/no_pwd"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/pwd_lock_text_size"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/frame_sendcode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_verifycode"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/plz_set_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:gravity="center"
+            android:text="@string/plz_send_veriftcode"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/pwd_setpwd_text_size"
+            android:paddingTop="100dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:visibility="visible" />
+
+        <Button 
+            android:id="@+id/btn_send_verifycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_vertical"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/pwd_btn_send"
+            android:visibility="visible" />
+
+        <Button 
+            android:id="@+id/btn_input_verifycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_vertical"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/pwd_btn_input"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_inputcodesucess"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_verifycode"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/send_verifycode_sucess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:gravity="center"
+            android:text="@string/plz_send_confirm"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/pwd_setpwd_text_size"
+            android:paddingTop="100dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:visibility="visible" />
+
+        <Button 
+            android:id="@+id/btn_input_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_vertical"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/settings_bright_normal"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

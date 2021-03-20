@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/round_clock_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/simulation_second_sword_01" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_minute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/simulation_minute_sword_01" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_hour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/simulation_hour_sword_01" />
+
+</FrameLayout>

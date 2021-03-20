@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xxun.xunlauncher.gif.GifTempletView
+        android:id="@+id/bg1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wind_bg2" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_minute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/wind_minute_sword" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_hour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/wind_hour_sword" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wind_point" />
+
+</FrameLayout>

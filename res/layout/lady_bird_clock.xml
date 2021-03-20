@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ladybird_clock_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/anim_01_second_sword" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_minute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/anim_01_minute_sword" />
+
+    <com.xxun.xunlauncher.clock.WatchRotateView
+        android:id="@+id/sword_hour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:WatchImage="@drawable/anim_01_hour_sword" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ladybird_clock_point" />
+
+    <ImageView
+        android:id="@+id/img_gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ladybug_animlist" />
+
+</FrameLayout>

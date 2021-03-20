@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+    android:id="@+id/clock"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="2dp"
+    android:layout_centerHorizontal="true">
+    <ImageView
+        android:id="@+id/h_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/digit0" />
+    <ImageView
+        android:id="@+id/h_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/digit8" />
+    <ImageView
+        android:id="@+id/colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/colon" />
+    <ImageView
+        android:id="@+id/m_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/digit1" />
+    <ImageView
+        android:id="@+id/m_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/digit5"/>
+    </LinearLayout>
+
+     <!-- <TextView
+        android:id="@+id/time_tv"
+        android:textSize="80px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp" /> -->
+
+    <ImageView
+        android:id="@+id/power_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/clock" />
+
+    <TextView
+        android:id="@+id/power_tv"
+        android:textSize="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/power_img" />
+
+    <TextView
+        android:id="@+id/charging_hint"
+        android:textSize="26px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/power_tv"
+        android:text="@string/charging"
+        android:textColor="#FF605F"
+        android:layout_marginTop="5dp"/>
+        
+    <TextView
+        android:id="@+id/app_mention"
+        android:textSize="26px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/power_tv"
+        android:text="@string/appstore_app_show"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"/>
+        
+        
+    <ImageView
+        android:id="@+id/setting_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/setting"
+        android:layout_below="@+id/charging_hint" />
+        
+        
+    <TextView
+        android:id="@+id/install_mention"
+        android:textSize="32px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/power_tv"
+        android:text="@string/appstore_app_settings"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="54dp"/>  
+
+</RelativeLayout>

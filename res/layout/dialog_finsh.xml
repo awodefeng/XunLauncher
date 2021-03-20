@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/backgrounds"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/backg"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="51px"
+        android:layout_marginBottom="45px"
+        android:layout_marginRight="10px"
+        android:orientation="vertical"
+        android:layout_width="220px"
+        android:layout_height="144px">
+        <TextView
+            android:id="@+id/tv_task_name"
+            android:textColor="@color/white"
+            android:textSize="28px"
+            android:layout_marginTop="51px"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/step_finsh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/get_gold"
+            android:textSize="28px"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/randowecp"
+            android:layout_marginBottom="19px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gold_color"/>
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_marginLeft="24px"
+        android:layout_marginTop="18px"
+        android:src="@drawable/shape"
+        android:layout_width="68px"
+        android:layout_height="68px"/>
+    
+
+
+</FrameLayout>

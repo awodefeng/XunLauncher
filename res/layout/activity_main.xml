@@ -1,0 +1,52 @@
+<com.xxun.xunlauncher.systemui.SystemUiPanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pv="http://schemas.android.com/apk/res-auto"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    sothree:umanoOverlay="true"
+    sothree:umanoPanelHeight="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sliding_layout"
+    sothree:umanoDragView="@+id/dragView">
+
+    <com.xxun.xunlauncher.launcherpager.LauncherViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:id="@+id/dragView">
+
+        <include
+            android:id="@+id/status_bar"
+            layout="@layout/statusbar" />
+
+        <include
+            android:id="@+id/weather"
+            layout="@layout/weather_container" />
+
+    </LinearLayout>
+</com.xxun.xunlauncher.systemui.SystemUiPanel>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

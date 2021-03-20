@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="applists">
+        <item>com.xxun.watch.xunsettings</item>
+        <item>com.xiaoxun.dialer</item>
+        <item>com.xxun.xuncamera</item>
+        <item>com.xxun.xungallery</item>
+        <item>com.xxun.watch.storytall</item>
+        <item>com.tencent.qqlite</item>
+        <item>com.xxun.watch.stepstart</item>
+        <item>com.xxun.watch.xunchatroom</item>
+        <item>com.xxun.watch.xunpet</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.xiaoxun.englishdailystudy</item>
+
+        <!--<item>com.xxun.watch.xunfriends</item>-->
+        <item>com.xxun.watch.xunbrain.x2</item>
+        <item>com.xxun.watch.xunstopwatch</item>
+        <item>ado.install.xiaoxun.com.xiaoxuninstallapk</item>
+        <item>com.xxun.xunimgrec</item>
+        <item>com.xxun.xunwordsrec</item>
+    </string-array>
+
+    <integer-array name="appiconList">
+        <item>@drawable/settings</item>
+        <item>@drawable/phone</item>
+        <item>@drawable/camera</item>
+        <item>@drawable/album</item>
+        <item>@drawable/story</item>
+        <item>@drawable/wear_tencent</item>
+        <item>@drawable/sport</item>
+        <item>@drawable/voice_msg</item>
+        <item>@drawable/pet</item>
+        <item>@drawable/alipay</item>
+        <item>@drawable/engstd_icon</item>
+
+        <!--<item>@drawable/friends</item>-->
+        <item>@drawable/voice_question</item>
+        <item>@drawable/stopwatch</item>
+        <item>@drawable/appstore</item>
+        <item>@drawable/img_recognition</item>
+        <item>@drawable/word_recognition</item>
+    </integer-array>
+
+    <string-array name="applists_name">
+        <item>@string/xunsettings</item>
+        <item>@string/dialer</item>
+        <item>@string/xuncamera</item>
+        <item>@string/xungallery</item>
+        <item>@string/storytall</item>
+        <item>@string/tencent_qq</item>
+        <item>@string/stepstart</item>
+        <item>@string/xunchatroom</item>
+        <item>@string/xunpet</item>
+        <item>@string/AlipayGphone</item>
+        <item>@string/englishdailystudy</item>
+        <!--<item>@string/xunfriends</item>-->
+
+        <item>@string/xunbrain</item>
+        <item>@string/stopwatch</item>
+        <item>@string/appstore</item>
+        <item>@string/xunimgrec</item>
+        <item>@string/xunwordrec</item>
+    </string-array>
+
+    <string-array name="show_applists_name">
+        <item>@string/shownull</item>
+        <item>@string/dialer</item>
+        <item>@string/xunchatroom</item>
+        <item>@string/xunsettings</item>
+        <item>@string/xunpet</item>
+        <item>@string/stepstart</item>
+        <item>@string/stopwatch</item>
+        <item>@string/storytall</item>
+        <item>@string/appstore</item>
+        <item>@string/xungallery</item>
+        <item>@string/xuncamera</item>
+        <item>@string/AlipayGphone</item>
+        <item>@string/englishdailystudy</item>
+        <item>@string/tencent_qq</item>
+        <item>@string/xunbrain</item>
+        <!--<item>@string/xunfriends</item>-->
+        <item>@string/xunimgrec</item>
+        <item>@string/xunwordrec</item>
+    </string-array>
+
+    <integer-array name="month_days">
+        <item>@drawable/day_31</item>
+        <item>@drawable/day_1</item>
+        <item>@drawable/day_2</item>
+        <item>@drawable/day_3</item>
+        <item>@drawable/day_4</item>
+        <item>@drawable/day_5</item>
+        <item>@drawable/day_6</item>
+        <item>@drawable/day_7</item>
+        <item>@drawable/day_8</item>
+        <item>@drawable/day_9</item>
+        <item>@drawable/day_10</item>
+        <item>@drawable/day_11</item>
+        <item>@drawable/day_12</item>
+        <item>@drawable/day_13</item>
+        <item>@drawable/day_14</item>
+        <item>@drawable/day_15</item>
+        <item>@drawable/day_16</item>
+        <item>@drawable/day_17</item>
+        <item>@drawable/day_18</item>
+        <item>@drawable/day_19</item>
+        <item>@drawable/day_20</item>
+        <item>@drawable/day_21</item>
+        <item>@drawable/day_22</item>
+        <item>@drawable/day_23</item>
+        <item>@drawable/day_24</item>
+        <item>@drawable/day_25</item>
+        <item>@drawable/day_26</item>
+        <item>@drawable/day_27</item>
+        <item>@drawable/day_28</item>
+        <item>@drawable/day_29</item>
+        <item>@drawable/day_30</item>
+    </integer-array>
+
+    <integer-array name="weeks">
+        <item>@drawable/week_0</item>
+        <item>@drawable/week_1</item>
+        <item>@drawable/week_2</item>
+        <item>@drawable/week_3</item>
+        <item>@drawable/week_4</item>
+        <item>@drawable/week_5</item>
+        <item>@drawable/week_6</item>
+    </integer-array>
+
+</resources>

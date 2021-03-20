@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xunmotion_bg">
+
+    <ImageView
+        android:id="@+id/h_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4px"
+        android:layout_marginLeft="84px"/>
+
+    <ImageView
+        android:id="@+id/h_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4px"
+        android:layout_marginLeft="160px" />
+
+    <ImageView
+        android:id="@+id/m_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108px"
+        android:layout_marginLeft="84px" />
+
+    <ImageView
+        android:id="@+id/m_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108px"
+        android:layout_marginLeft="160px"
+        />
+
+    <TextView
+        android:id="@+id/step"
+        android:text="@string/num"
+        android:textSize="28px"
+        android:textColor="#f56329"
+        android:layout_marginLeft="7px"
+        android:layout_width="65px"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        />
+
+    <TextView
+        android:text="@string/step"
+        android:textSize="18px"
+        android:textColor="#777777"
+        android:layout_marginLeft="31px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130px"
+        />
+
+    <TextView
+        android:id="@+id/card"
+        android:text="@string/num"
+        android:textSize="28px"
+        android:textColor="#f56329"
+        android:gravity="center"
+        android:layout_marginLeft="7px"
+        android:layout_width="65px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175px"
+        />
+
+    <TextView
+        android:text="@string/card"
+        android:textSize="18px"
+        android:textColor="#777777"
+        android:layout_marginLeft="23px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205px"
+        />
+
+    <TextView
+        android:textSize="18px"
+        android:textColor="#666666"
+        android:id="@+id/week_day"
+        android:layout_marginLeft="84px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="215px" />
+
+    <TextView
+        android:textSize="18px"
+        android:textColor="#666666"
+        android:id="@+id/txt_day"
+        android:layout_marginTop="215px"
+        android:layout_marginLeft="160px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</FrameLayout>

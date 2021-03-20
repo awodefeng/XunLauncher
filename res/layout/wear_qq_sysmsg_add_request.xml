@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tencent="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_width="@dimen/wearQQSysmsgAddRequest_iv_closeBtn_size"
+        android:layout_height="@dimen/wearQQSysmsgAddRequest_iv_closeBtn_size"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/wearQQSysmsgAddRequest_iv_closeBtn_padding"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_close" />
+
+    <LinearLayout
+        android:id="@+id/buddyinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/wearQQSysmsgAddRequest_linearLayout_buddyinfo_height"
+        android:layout_below="@id/close_btn"
+        android:layout_marginLeft="@dimen/wearQQSysmsgAddRequest_linearLayout_buddyinfo_margin"
+        android:layout_marginRight="@dimen/wearQQSysmsgAddRequest_linearLayout_buddyinfo_margin"
+        android:background="@drawable/wear_sysmsg_add_request_bgtop"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/wearQQSysmsgAddRequest_tv_nickname_marginLeft"
+            android:layout_marginRight="@dimen/wearQQSysmsgAddRequest_tv_nickname_marginRight"
+            android:duplicateParentState="true"
+            android:gravity="right"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontSize18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/face"
+        android:layout_width="@dimen/wearQQSysmsgAddRequest_iv_face_size"
+        android:layout_height="@dimen/wearQQSysmsgAddRequest_iv_face_size"
+        android:layout_alignBottom="@id/nickname"
+        android:layout_marginLeft="@dimen/wearQQSysmsgAddRequest_iv_face_marginLeft"
+        android:layout_marginTop="@dimen/wearQQSysmsgAddRequest_iv_face_marginTop"
+        android:scaleType="fitCenter"
+        android:src="@drawable/login_default_avatar_login" />
+
+    <LinearLayout
+        android:id="@+id/buddydetailinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/wearQQSysmsgAddRequest_linearLayout_buddydetailinfo_height"
+        android:layout_below="@id/buddyinfo"
+        android:layout_marginLeft="@dimen/wearQQSysmsgAddRequest_linearLayout_buddydetailinfo_margin"
+        android:layout_marginRight="@dimen/wearQQSysmsgAddRequest_linearLayout_buddydetailinfo_margin"
+        android:background="@drawable/wear_sysmsg_add_request_bgbottom"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <!-- 这里添加一下处理信息显示 -->
+        <TextView
+            android:id="@+id/msg_dealwith_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="@null"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontSize20sp" />
+
+        <TextView
+            android:id="@+id/msg_dealwith_friend_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@null"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontSize20sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/buddydetailinfo"
+        android:layout_marginBottom="@dimen/marginDimens2dp"
+        android:layout_marginLeft="@dimen/wearQQSysmsgAddRequest_linearLayout_buddydetailinfo_margin"
+        android:layout_marginRight="@dimen/wearQQSysmsgAddRequest_linearLayout_buddydetailinfo_margin"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/refuse"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wearQQSysmsgAddRequest_btn_refuse_height"
+            android:layout_marginRight="@dimen/wearQQSysmsgAddRequest_btn_refuse_margin"
+            android:layout_weight="1"
+            android:background="@drawable/button_red"
+            android:text="@string/word_refuse"
+            android:textColor="@color/white"
+            android:textSize="@dimen/qq_watch_btn_textsize" />
+
+        <Button
+            android:id="@+id/agree_add"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wearQQSysmsgAddRequest_btn_refuse_height"
+            android:layout_marginLeft="@dimen/wearQQSysmsgAddRequest_btn_refuse_margin"
+            android:layout_weight="1"
+            android:background="@drawable/button_blue"
+            android:text="@string/agree"
+            android:textColor="@color/white"
+            android:textSize="@dimen/qq_watch_btn_textsize" />
+
+	<Button
+            android:id="@+id/reply"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/wearQQSysmsgAddRequest_btn_refuse_height"
+            android:layout_marginLeft="@dimen/wearQQSysmsgAddRequest_btn_refuse_margin"
+            android:layout_weight="1"
+            android:background="@drawable/button_blue"
+            android:text="@string/reply"
+            android:textColor="@color/white"
+	    android:visibility="gone"
+            android:textSize="@dimen/qq_watch_btn_textsize" />
+
+    </LinearLayout>
+
+</RelativeLayout>

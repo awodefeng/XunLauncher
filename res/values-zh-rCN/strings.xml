@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="morning">上午</string>
+    <string name="afternoon">下午</string>
+    <string name="evening">晚上</string>
+    <string name="daybreak">凌晨</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="sim_absent_tv">请插入SIM卡</string>
+    <string name="qr_tip">正在生成二维码，请稍等！</string>
+    <string name="insert_sim_help_tv">1. 请使用移动、联通\n nano-SIM卡,请勿使用剪卡。\n2. 手表支持移动4G、\n2G、联通2G。\n3. 用SIM卡工具打开\nSIM卡盖,将卡芯片朝外嵌入到SIM卡盖中。</string>
+    <string name="insert_sim_help_tv_760">1. 请使用移动4G、联通4G nano-SIM卡,请勿使用剪卡。\n2. 用插卡工具将卡托从表体中撬出,将nano-SIM卡的缺口对准卡托上的缺口,放到卡托里,再塞到表体中。</string>
+    <string name="insert_sim_help_tv_707">1. 请使用移动4G、联通4G、电信4G nano-SIM卡,请勿使用剪卡。\n2. 用插卡工具将卡托从表体中撬出,将nano-SIM卡的缺口对准卡托上的缺口,放到卡托里,再塞到表体中。</string>
+    <string name="low_mem">存储空间不足,请管理手表空间</string>
+
+	 <!--QQ releated-->
+    <string name="agree">同意</string>
+    <string name="word_refuse">拒绝</string>
+    <string name="reply">回复</string>
+    <string name="default_nickname">小宝贝</string>
+    <string name="step">步</string>
+    <string name="card">千卡</string>
+    <string name="num">9999</string>
+
+    <string name="hightemper_warning">当前手表温度过高\n10秒后手表返回首页</string>
+    <string name="stop_story_warning">\t当前手表温度较高，请等待手表降温后再使用讲故事。</string>
+    <string name="forbid_enter_warning">当前手表温度较高，请等待手表降温后再使用</string>
+   
+    <string name="login_fail">网络不给力</string>
+    <string name="login_fail_help">手表网络不给力，建议可以在手表设置中重启手表或者换个环境再试。如果以上操作无法获取网络，请尝试更换SIM卡或者重新连接WIFI试试。</string>
+    <!-- xxun liuluyang start-->
+    <string name="unsupport_telecom_volte">当前不支持电信卡，请在App端查看帮助</string>
+    <string name="china_telecom_volte_title">当前电信卡不支持VoLTE</string>
+    <string name="china_telecom_volte_content">当前插入电信卡不支持VoLTE，继续使用将无法拨打电话。</string>
+    <!-- xxun liuluyang end-->
+	<string name="bgcall_noti">手表当前正忙</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppViewPager">
+        <attr name="outset" format="fraction|dimension" />
+        <attr name="interpolator" format="reference" />
+        <attr name="shadow_width" format="dimension" />
+        <attr name="left_shadow" format="reference" />
+        <attr name="right_shadow" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="digitClockView">
+        <attr name="hourTextSize" format="dimension"/>
+        <attr name="minTextSize" format="dimension"/>
+        <attr name="dateTextSize" format="dimension"/>
+        <attr name="hourTextColor" format="color"/>
+        <attr name="minTextColor" format="color"/>
+        <attr name="dateTextColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="SystemUiPanel">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParallaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoScrollableView" format="reference" />
+        <attr name="umanoOverlay" format="boolean"/>
+        <attr name="umanoClipPanel" format="boolean"/>
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+        <attr name="umanoScrollInterpolator" format="reference" />
+    </declare-styleable>
+	
+	<declare-styleable name="WatchView">
+    <attr name="WatchImage">
+        <enum name="WatchImage" value="1" />
+    </attr>
+    </declare-styleable>
+    
+     <declare-styleable name="StyleableToast">
+        <attr name="textBold" format="boolean" />
+        <attr name="textColor" format="color" />
+        <attr name="textFont" format="reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="colorBackground" format="color" />
+        <attr name="solidBackground" format="boolean" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="iconLeft" format="reference" />
+        <attr name="iconRight" format="reference" />
+        <attr name="length" format="integer">
+            <enum name="LONG" value="1" />
+            <enum name="SHORT" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PwdEditText">
+        <attr name="style" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="roundRectangle" value="1" />
+        </attr>
+        <attr name="pwdCount" format="integer" />
+        <attr name="strokeRadius" format="dimension" />
+        <attr name="strokeWidthPWD" format="dimension" />
+        <attr name="strokeColorPWD" format="color" />
+        <attr name="dotColor" format="color" />
+        <attr name="dotRadius" format="dimension" />
+        <!--屏幕宽度，用于计算密码输入框的宽度-->
+        <attr name="mWidth" format="integer" />
+
+        <attr name="mTextSize" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_00" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_01" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_02" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_03" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_04" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_05" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_06" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_07" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_08" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_09" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_10" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_11" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_12" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_13" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_14" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_15" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_16" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_17" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_18" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_19" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_20" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_21" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_22" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_23" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_24" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_25" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_26" />
+    <item android:duration="@integer/ladybug_duration" android:drawable="@drawable/ladybug_27" />
+</animation-list>

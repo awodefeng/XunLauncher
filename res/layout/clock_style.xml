@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clock_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xxun.xunlauncher.clock.WindAnalogClock
+        android:id="@+id/show_clock_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+    </com.xxun.xunlauncher.clock.WindAnalogClock>
+
+</RelativeLayout>
